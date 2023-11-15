@@ -2,16 +2,16 @@ body {
     font-family: 'Times New Roman';
     margin: 0;
     padding: 0;
-    background-image: url('image/fond_menu.jpg');
+    background-image: url('image/merry_christmas.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
+    text-align: center;
 }
 
 header {
     background: linear-gradient(#700, #c00);
-    text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
     width: 100%;
     color: white;
 }
@@ -20,8 +20,13 @@ h1 {
     margin: 0;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-section {
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -44,8 +49,7 @@ li {
 footer {
     background: linear-gradient(360deg, #700, #c00);
     font-size: 1.2em;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
     bottom: 0;
     width: 100%;
     color: white;
